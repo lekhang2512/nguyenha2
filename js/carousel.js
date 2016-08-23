@@ -1,0 +1,77 @@
+$(document).ready(function(){
+    var owl = $("#carousel-gia-tot");
+    owl.owlCarousel({
+        loop:true,
+        margin:10,
+        /*nav:true,*/
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+    });
+    $(".next").click(function(){
+      owl.trigger('next.owl.carousel');
+    });
+    $(".prev").click(function(){
+      owl.trigger('prev.owl.carousel');
+    });
+});
+  /*giá tốt*/
+  $(document).ready(function(){
+    var owldonghonam = $("#owl-carousel-dong-ho-nam");
+    owldonghonam.owlCarousel({
+        loop:true,
+        margin:10,
+        /*nav:true,*/
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+    $(".nexts").click(function(){
+      owldonghonam.trigger('next.owl.carousel');
+    });
+    $(".prevs").click(function(){
+      owldonghonam.trigger('prev.owl.carousel');
+    });
+  });
+  /*end đông hồ nam*/
+  $(document).ready(function(){
+    var owldonghonu = $("#owl-carousel-dong-ho-nu");
+    owldonghonu.owlCarousel({
+        loop:true,
+        margin:10,
+        /*nav:true,*/
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+    $(".nextn").click(function(){
+      owldonghonu.trigger('next.owl.carousel');
+    });
+    $(".prevn").click(function(){
+      owldonghonu.trigger('prev.owl.carousel');
+    });
+  });
