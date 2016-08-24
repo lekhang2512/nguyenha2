@@ -242,6 +242,8 @@ body{
 						font-family: "Roboto Medium";
 						color: rgb( 255, 255, 255 );
 						text-transform: uppercase;
+						line-height: 50px;
+						text-decoration: none;
 					}
 				}
 				.active{
@@ -284,10 +286,10 @@ body{
 			font-family: "Roboto Medium";
 			color: rgb( 51, 51, 51 );
 			text-transform: uppercase;
-			line-height: 1.111;
+			line-height: 50px;
 			text-align: left;
 			padding-left:15px;
-			margin-top: 15px;
+			margin:0;
 		}
 		nav{
 			ul{
@@ -307,6 +309,7 @@ body{
 						border-right:1px solid rgb( 178, 178, 178 );
 						padding:0 20px;
 						cursor: pointer;
+						line-height: 50px;
 					}
 					.border-right{
 						border-right:0;
