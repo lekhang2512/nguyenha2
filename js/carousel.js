@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var owl = $("#carousel-gia-tot");
+    var owl = $(".carousel-gia-tot");
     owl.owlCarousel({
         loop:true,
         margin:10,
@@ -25,7 +25,7 @@ $(document).ready(function(){
 });
   /*giá tốt*/
   $(document).ready(function(){
-    var owldonghonam = $("#owl-carousel-dong-ho-nam");
+    var owldonghonam = $(".owl-carousel-dong-ho-nam");
     owldonghonam.owlCarousel({
         loop:true,
         margin:10,
@@ -51,7 +51,7 @@ $(document).ready(function(){
   });
   /*end đông hồ nam*/
   $(document).ready(function(){
-    var owldonghonu = $("#owl-carousel-dong-ho-nu");
+    var owldonghonu = $(".owl-carousel-dong-ho-nu");
     owldonghonu.owlCarousel({
         loop:true,
         margin:10,

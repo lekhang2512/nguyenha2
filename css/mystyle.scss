@@ -155,6 +155,9 @@ body{
 }
 /* end slider */
 .main{
+	.display-none{
+		display: none;
+	}
 	.banner{
 		margin-top: 50px;
 		img{
@@ -215,6 +218,9 @@ body{
 		}
 	}
 	/* end banner */
+	.nav-tabs {
+		border-bottom: 0;
+	}
 	.style-watch{
 		background-color: #fff;
 		margin-top: 20px;
@@ -299,6 +305,7 @@ body{
 						text-decoration: none;
 						border-right:1px solid rgb( 178, 178, 178 );
 						padding:0 20px;
+						cursor: pointer;
 					}
 					.border-right{
 						border-right:0;

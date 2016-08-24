@@ -156,6 +156,9 @@ body {
   /* end menu nav */
   /* end gi├í tß╗æt */
 }
+.main .display-none {
+  display: none;
+}
 .main .banner {
   margin-top: 50px;
 }
@@ -205,6 +208,9 @@ body {
 }
 .main .banner .tra-hang .banner-xem button {
   background-color: #aa7535;
+}
+.main .nav-tabs {
+  border-bottom: 0;
 }
 .main .style-watch {
   background-color: #fff;
@@ -288,6 +294,7 @@ body {
   text-decoration: none;
   border-right: 1px solid #b2b2b2;
   padding: 0 20px;
+  cursor: pointer;
 }
 .main .menu-nav nav ul li .border-right {
   border-right: 0;
