@@ -547,39 +547,131 @@ body{
 		margin-top: 20px;
 		.image-top{
 			width: 840px;
-			height: 250px;
-			img{
+			height: 252px;
+			a img{
 				width: 840px;
-				height: 250px;
+				height: 252px;
 			}
 		}
 		.image-left{
 			width: 500px;
 			height: 535px;
 			margin-right: 40px;
-			img{
+			a img{
 				width: 500px;
-				height: 535px;
+				height: 530px;
 			}
 		}
 		.image-right{
 			width: 300px;
 			height: 250px;
-			img{
+			a img{
 				width: 300px;
 				height: 250px;
 			}
 		}
 		.image-ngoai{
 			width: 315px;
-			height: 535px;
-			img{
+			height: 532px; 
+			a img{
 				width: 315px;
 				height: 535px;
 			}
 		}
 		.m-buttom{
 			margin-bottom: 30px;
+		}
+	}
+	.video{
+		margin-top: 20px;
+		margin-bottom: 30px;
+		.item-video{
+			height: 250px;
+			overflow: hidden;
+			padding:0 2px;
+			position: relative;
+			.video-image{
+				height: 250px;
+				img{
+					width: 100%;
+					height: 250px;
+				}
+			}
+			.replay-image{
+				position:absolute;
+				top:40%;
+				left: 40%;
+			}
+		}
+		.padding-trai{
+			padding-left:0;
+		}
+		.padding-phai{
+			padding-right:0;
+		}
+	}
+}
+
+.footer{
+	background-color: #9f2927;
+	padding:20px 0;
+	color:#fff;
+	h4{
+		margin-top: 20px;
+		font-family: "Roboto Medium";
+		font-size: 13px;
+		text-transform:uppercase;
+	}
+	.lien-he{
+		h3{
+			font-family: "Roboto";
+			font-size: 18px;
+			font-weight: bold;
+			text-transform:uppercase;
+			margin-bottom: 20px;
+		}
+		p{
+			font-family: "Roboto";
+			font-size: 14px;
+		}
+		span{
+			margin-right: 15px;
+		}
+	}
+	.cham-soc-khach{
+		p{
+			font-family: "Roboto";
+			font-size: 12px;
+		}
+		a{
+			text-decoration: none;
+			color: #fff;
+		}
+		a:hover{
+			color: #fdf267;
+		}
+	}
+	.hinh-thuc-van-chuyen{
+		a{
+			display: inline-block;
+			margin-right: 10px;
+		}
+	}
+	.chung-nhan{
+		a{
+			display: block;
+			margin-bottom: 10px;
+		}
+	}
+	.ket-noi{
+		a{
+			display: inline-block;
+			margin-right: 10px;
+			float: right;
+			margin-top: 20px;
+		}
+		a:first-child{
+			margin-right: 0;
 		}
 	}
 }

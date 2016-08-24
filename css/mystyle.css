@@ -529,39 +529,121 @@ body {
 }
 .main .bo-suu-tap .image-top {
   width: 840px;
-  height: 250px;
+  height: 252px;
 }
-.main .bo-suu-tap .image-top img {
+.main .bo-suu-tap .image-top a img {
   width: 840px;
-  height: 250px;
+  height: 252px;
 }
 .main .bo-suu-tap .image-left {
   width: 500px;
   height: 535px;
   margin-right: 40px;
 }
-.main .bo-suu-tap .image-left img {
+.main .bo-suu-tap .image-left a img {
   width: 500px;
-  height: 535px;
+  height: 530px;
 }
 .main .bo-suu-tap .image-right {
   width: 300px;
   height: 250px;
 }
-.main .bo-suu-tap .image-right img {
+.main .bo-suu-tap .image-right a img {
   width: 300px;
   height: 250px;
 }
 .main .bo-suu-tap .image-ngoai {
   width: 315px;
-  height: 535px;
+  height: 532px;
 }
-.main .bo-suu-tap .image-ngoai img {
+.main .bo-suu-tap .image-ngoai a img {
   width: 315px;
   height: 535px;
 }
 .main .bo-suu-tap .m-buttom {
   margin-bottom: 30px;
+}
+.main .video {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.main .video .item-video {
+  height: 250px;
+  overflow: hidden;
+  padding: 0 2px;
+  position: relative;
+}
+.main .video .item-video .video-image {
+  height: 250px;
+}
+.main .video .item-video .video-image img {
+  width: 100%;
+  height: 250px;
+}
+.main .video .item-video .replay-image {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.main .video .padding-trai {
+  padding-left: 0;
+}
+.main .video .padding-phai {
+  padding-right: 0;
+}
+
+.footer {
+  background-color: #9f2927;
+  padding: 20px 0;
+  color: #fff;
+}
+.footer h4 {
+  margin-top: 20px;
+  font-family: "Roboto Medium";
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.footer .lien-he h3 {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer .lien-he p {
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.footer .lien-he span {
+  margin-right: 15px;
+}
+.footer .cham-soc-khach p {
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.footer .cham-soc-khach a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .cham-soc-khach a:hover {
+  color: #fdf267;
+}
+.footer .hinh-thuc-van-chuyen a {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer .chung-nhan a {
+  display: block;
+  margin-bottom: 10px;
+}
+.footer .ket-noi a {
+  display: inline-block;
+  margin-right: 10px;
+  float: right;
+  margin-top: 20px;
+}
+.footer .ket-noi a:first-child {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=mystyle.css.map */
