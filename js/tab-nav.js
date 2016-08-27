@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $('.tab').click(function(event) {
+  $('.tab-giatot').click(function(event) {
     event.preventDefault();
-    $('.tab-content').hide();
+    $('.tab-content-giatot').hide();
     $($(this).data('id')).show();
   });
 });
